@@ -1,0 +1,63 @@
+#messages{
+    .all-messages{
+        height: 300px;
+        overflow-y: auto;
+    }
+
+    .message,
+    .my-message{
+        font-size: 12px;
+
+        strong{
+            display: block;
+            color: #ececec;
+            font-size: 11px;
+        }
+
+        span{
+            display: block;
+            padding: 5px;
+            background: #ececec;
+            border-radius: 10px;
+            color: #000;
+        }
+    }
+
+    .message{
+        text-align: right;
+        float: right;
+
+        strong{
+            color: blue;
+        }
+        
+        span{
+            background:blue;
+            color: #fff;
+        }
+    }
+
+    form{
+        border-top: 1px solid #eee;
+        padding-top: 20px;
+
+        input{
+            border: 1px solid #ececec;
+            padding: 10px;
+            font-size: 12px;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        button{
+            overflow: hidden;
+            cursor: pointer;
+            border: 0;
+            background: blue;
+            border-radius: 5px;
+            height: 35px;
+            float: right;
+            color: #fff
+        }
+    }
+}

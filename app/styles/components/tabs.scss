@@ -1,0 +1,23 @@
+#tabs{
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+
+    li{
+        list-style: none;
+        float: right;
+
+        a,
+        span{
+            cursor: pointer;
+            padding: 10px;
+            font-size: 13px;
+            display: block;
+            text-decoration: none;
+            color: black;
+
+            &.current{
+                font-weight: bold;
+            }
+        }
+    }
+}
